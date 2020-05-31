@@ -12,4 +12,3 @@ var Point = /** @class */ (function () {
     return Point;
 }());
 var point = new Point();
-point.draw();
