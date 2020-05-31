@@ -1,13 +1,11 @@
-//shape of the object
-interface Point {
+class Point {
   x: number;
   y: number;
+  draw() {
+    //...
+  }
+
+  getDistance(another: Point) {
+    //...
+  }
 }
-
-let drawPoint = (point: Point) => {
-  //...
-};
-
-let getDistance = (pointA: Point, pointB: Point) => {
-  //...
-};
