@@ -1,9 +1,14 @@
-function doSomething() {
-  for (let i = 0; i < 5; i++) {
-    console.log(i);
-  }
+let a: number;
+let b: boolean;
+let c: string;
+let d: any;
+let e: number[] = [1, 2, 3];
+let f: any[] = [1, true, "a", false];
 
-  console.log("Finally: " + i);
+enum color {
+  Red = 0,
+  Green = 1,
+  Blue = 2,
 }
 
-doSomething();
+let backgroundColor = color.Red;
