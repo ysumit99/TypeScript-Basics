@@ -1,4 +1,13 @@
-let message;
-message = "abc";
-let endsWithC = (<string>message).endsWith("c");
-let alternativeWay = (message as string).endsWith("c");
+//shape of the object
+interface Point {
+  x: number;
+  y: number;
+}
+
+let drawPoint = (point: Point) => {
+  //...
+};
+
+let getDistance = (pointA: Point, pointB: Point) => {
+  //...
+};
